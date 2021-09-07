@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React.js",
     description:
       "This allows for a user to sign in with their, existing, spotify account and search for albums, songs and playlists.",
-    image: "./img/Spotify Song Finder.png",
+    image: "./Spotify.png",
     link: "https://spotify-song-finder.netlify.app",
   },
 ];
