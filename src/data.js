@@ -9,4 +9,4 @@ export const projects = [
   },
 ];
 
-export const skills = ["JavaScript", "React", "HTML", "CSS", "Python"];
+export const skills = ["HTML", "CSS", "JavaScript", "React", "Node", "Python"];
