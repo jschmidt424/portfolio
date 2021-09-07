@@ -12,9 +12,7 @@ export default function About() {
             the web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I'm from Lansing Michigan where I have lived for all of my life. Always having a passion for music, learning, and creating, I decided to pursue a career in web development. Where I would be able to create and continue learning at a deeper level.
           </p>
           <div className="flex justify-center">
             <a
