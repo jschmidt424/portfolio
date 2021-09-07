@@ -73,7 +73,8 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Want to talk about the future? I'm always looking for new opportunities.
+            Want to talk about the future? I'm always looking for new
+            opportunities.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -116,6 +117,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            onClick={handleSubmit}
           >
             Submit
           </button>
