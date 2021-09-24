@@ -11,7 +11,7 @@ export const projects = [
     title: "Rare Assassins (In Progress)",
     subtitle: "React.js",
     description: "Gaming website for Rare Assassins clan",
-    image: "",
+    image: "./rareassassins.png",
     link: "https://rareassassins.netlify.app",
   },
 ];
