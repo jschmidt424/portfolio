@@ -8,7 +8,7 @@ export const projects = [
     link: "https://spotify-song-finder.netlify.app",
   },
   {
-    title: "Rare Assassins",
+    title: "Rare Assassins (In Progress)",
     subtitle: "React.js",
     description: "Gaming website for Rare Assassins clan",
     image: "",
