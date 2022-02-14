@@ -5,7 +5,7 @@ export const projects = [
     description:
       "This allows for a user to sign in with their, existing, spotify account and search for albums, songs and playlists.",
     image: "./Spotify.png",
-    link: "https://spotify-song-finder.netlify.app",
+    link: "https://spotify-song-search.netlify.app",
   },
   {
     title: "Rare Assassins (In Progress)",
