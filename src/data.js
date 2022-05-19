@@ -15,6 +15,13 @@ export const projects = [
     image: "./Calculator.png",
     link: "https://jschmidt424.github.io/calculator/",
   },
+  {
+    title: "Rick and Morty Characters",
+    subtitle: "Reactjs, Material UI, CSS",
+    description: "This site pulls from the Rick and Morty APi to display the characters in the show and their information.",
+    image: "./RickAndMorty.png",
+    link: "https://randm-characters.netlify.app",
+  },
 ];
 
 export const skills = ["HTML", "CSS", "JavaScript", "React", "Node", "Python"];
