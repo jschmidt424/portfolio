@@ -56,7 +56,7 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center tracking-widest underline">
                     <h2 className="text-sm title-font font-medium text-green-400 mb-1 px-8">
                       <a href={project.github} target="__blank">
                         Github
