@@ -18,12 +18,31 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4"
-            >
-              <div className="flex relative">
+            <>
+              {/* <a
+                href={project.link}
+                key={project.image}
+                className="sm:w-1/2 w-100 p-4"
+                target="__blank"
+              >
+                <div className="flex relative">
+                  <img
+                    alt="gallery"
+                    className="absolute inset-0 w-full h-full object-cover object-center"
+                    src={project.image}
+                  />
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                      {project.subtitle}
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                      {project.title}
+                    </h1>
+                    <p className="leading-relaxed">{project.description}</p>
+                  </div>
+                </div>
+              </a> */}
+              <div className="flex relative sm:w-1/2 w-100 p-4">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -37,9 +56,21 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <div className="flex justify-center">
+                    <h2 className="text-sm title-font font-medium text-green-400 mb-1 px-8">
+                      <a href={project.github} target="__blank">
+                        Github
+                      </a>
+                    </h2>
+                    <h2 className="text-sm title-font font-medium text-green-400 mb-1 px-8">
+                      <a href={project.link} target="__blank">
+                        Deploy
+                      </a>
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </a>
+            </>
           ))}
         </div>
       </div>
