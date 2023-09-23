@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
+import Connect from "./components/Connect";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Connect />
       <Contact />
     </main>
   );
