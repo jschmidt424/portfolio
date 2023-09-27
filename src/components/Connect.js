@@ -29,13 +29,6 @@ export default function Connect() {
             >
               Twitch
             </a>
-            <a
-              href="https://www.linkedin.com/in/jschmidt21/"
-              target="__blank"
-              className="px-8"
-            >
-              Linkedin
-            </a>
           </p>
         </div>
       </div>
