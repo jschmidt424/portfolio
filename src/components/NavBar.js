@@ -17,9 +17,6 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="https://dev.to/jschmidt" className="mr-5 hover:text-white">
-            Blog
-          </a>
         </nav>
         <a
           href="#contact"
